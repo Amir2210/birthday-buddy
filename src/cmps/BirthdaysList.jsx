@@ -2,6 +2,10 @@ import { useState } from 'react'
 
 export function BirthdaysList({ data }) {
   const [people, setPeople] = useState(data)
+
+  function clearAll() {
+    setPeople([])
+  }
   return (
     <>
       <h3>{people.length} Birthdays Today</h3>
@@ -15,6 +19,7 @@ export function BirthdaysList({ data }) {
             </div>
           </li>)}
       </ul>
+      <button onClick={clearAll} className='btn btn-block'>Clear All</button>
     </>
   )
 }
