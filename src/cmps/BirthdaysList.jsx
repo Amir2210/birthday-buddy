@@ -15,7 +15,7 @@ export function BirthdaysList({ data }) {
             <img className='img' src={person.image} alt="person img" />
             <div>
               <h4>{person.name}</h4>
-              <p>{person.age}</p>
+              <p>{person.age} years</p>
             </div>
           </li>)}
       </ul>
