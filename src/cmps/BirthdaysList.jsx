@@ -8,7 +8,11 @@ export function BirthdaysList({ data }) {
       <ul>
         {people.map(person =>
           <li className='person' key={person.id}>
-            <img src={person.image} alt="person img" />
+            <img className='img' src={person.image} alt="person img" />
+            <div>
+              <h4>{person.name}</h4>
+              <p>{person.age}</p>
+            </div>
           </li>)}
       </ul>
     </>
