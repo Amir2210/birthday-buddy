@@ -36,3 +36,6 @@ To run the project locally:
 3. Run npm install to install dependencies.
 4. Run npm run dev to start the development server.
 5. Open your browser and navigate to http://localhost:5173 to view the application.
+
+
+   ![ללא שם](https://github.com/Amir2210/birthday-buddy/assets/107459404/6b36ce43-9b3f-4412-b71d-842be7e892ea)
